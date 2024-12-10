@@ -2,4 +2,4 @@
  
 This is a test.
 
-![image](assets\Screenshot 2024-12-10 150349.png "screenshot")
+![image](Screenshot 2024-12-10 150349.png "screenshot")
