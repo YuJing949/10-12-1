@@ -5,5 +5,5 @@ function setup() {
 function draw() {
   background(220);
 
-  circle(width / 2, height / 2, mouseX);
+  circle(width / 2, height / 2, (width / 2 - mouseX) * 2);
 }
