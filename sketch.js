@@ -14,8 +14,8 @@ function draw() {
 
   vertex(mouseX, mouseY);
 
-  //bezierVertex( mouseX, mouseY, mouseY, mouseX, 350, 400);
-  bezierVertex( mouseY, mouseX, 350, 400, mouseY, mouseX, mouseX, mouseY, 200, 200);
+  bezierVertex( mouseX, mouseY, mouseY, mouseX, 350, 400);
+  bezierVertex( mouseY, mouseX, mouseX, mouseY, 200, 200);
 
   endShape(CLOSE);
 
